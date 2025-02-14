@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@import "tailwindcss";
+@theme {
+  --color-primary: #ff8901;
+  --color-secondary: #fb923c;
+  --font-play: "Playfair Display", serif;
+  --container-center: true;
+  --container-padding-default: 1rem;
+  --container-padding-sm: 1.5rem;
+  --container-padding-lg: 3.5rem;
+  --container-padding-xl: 4.5rem;
+  --container-padding-2xl: 5.5rem;
+}
+
+@layer components {
+  .primary-btn {
+    @apply bg-primary text-white font-semibold py-3 px-6 rounded-md  hover:!scale-110 duration-300;
+  }
+}
