@@ -31,7 +31,7 @@ const Hero = () => {
               <img
                 src={heroimg}
                 alt=""
-                className="w-[350px] md:w-[550px] xl:w-[700px]"
+                className="w-[350px] md:w-[550px] xl:w-[700px] drop-shadow"
               />
             </div>
           </div>
